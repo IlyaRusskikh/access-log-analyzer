@@ -1,0 +1,22 @@
+{
+	"name": "log-analyzer/log-analyzer",
+	"description": "access.log analyzer test task",
+	"type": "project",
+	"require-dev": {
+		"phpunit/phpunit": "^12.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"NSLogAnalyzer\\": "src/",
+			"NSLogAnalyzer\\Tests\\": "tests/"
+		}
+	},
+	"authors": [
+		{
+			"name": "ilyasohard"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true
+	}
+}
