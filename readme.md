@@ -12,7 +12,7 @@
 - Docker
 
 Скачиваем репозиторий
-`git clone repo`
+`git clone https://github.com/IlyaRusskikh/access-log-analyzer.git`
 
 Собираем контейнер Docker
 `docker build -t log-analyzer .`
